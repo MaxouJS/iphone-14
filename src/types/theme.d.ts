@@ -1,4 +1,5 @@
 interface Theme {
+  themeName: string;
   primaryTextColor: string;
   secondaryTextColor: string;
   h1TextColor: string[];
@@ -7,7 +8,9 @@ interface Theme {
   buttonShadowColor: string;
   backgroundColor: string[];
   blobColor: number;
+  shadowColor: number;
   glassColor: string;
+  glassShadowColor: string;
 };
 
 export default Theme;
