@@ -3,10 +3,12 @@ import { MeshDistortMaterial } from '@react-three/drei';
 
 // Types
 import type { FC } from 'react';
+import type BackgroundType from '../../../types/props/3d/background';
 
-// Generic 3d model component, allows to load and copy any 3d GLTF 3d model
-const Background: FC = () => {
-   // Using a primitive is the easiest way to load a custom 3d model. Using meshes can be hard to manage in this case
+const Background: FC<BackgroundType> = (props: BackgroundType) => {
+  // Props
+  const { blobColor }: BackgroundType = props;
+  
   return (
     <>
       <mesh position={[0, 0, -50]} scale={[10, 10, 10]} frustumCulled={false}>
@@ -15,7 +17,7 @@ const Background: FC = () => {
           speed={1}
           distort={0.5}
           radius={1}
-          color={0xfbbf24}
+          color={blobColor}
         />
       </mesh>
       <mesh position={[50, 0, 33]} scale={[5, 5, 5]} frustumCulled={false}>
@@ -24,7 +26,7 @@ const Background: FC = () => {
           speed={1}
           distort={0.5}
           radius={1}
-          color={0xfbbf24}
+          color={blobColor}
         />
       </mesh>
       <mesh position={[-50, 0, 33]} scale={[15, 15, 15]} frustumCulled={false}>
@@ -33,7 +35,7 @@ const Background: FC = () => {
           speed={1}
           distort={0.5}
           radius={1}
-          color={0xfbbf24}
+          color={blobColor}
         />
       </mesh>
     </>
