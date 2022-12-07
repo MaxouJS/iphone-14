@@ -104,6 +104,12 @@ const Main: FC = () => {
               </button>
             </div>
           </section>
+          <a
+            href='https://www.apple.com/shop/buy-iphone/iphone-14-pro' target='_blank'
+            className={`absolute left-8 right-20 bottom-20 text-center bg-gradient-to-r ${theme?.buttonColor[0]} ${theme?.buttonColor[1]} rounded-2xl shadow-lg ${theme?.buttonShadowColor} lg:p-4 p-3 hover:scale-110 duration-200`}
+          >
+            <span className='text-neutral-50 lg:text-xl md:text-lg text-md font-black'>Order</span>
+          </a>
           <span className='absolute bottom-8 left-8 text-xs'>designed by <span className='font-black'>Maxence Gumiero</span></span>
           <div className='absolute bottom-8 right-8'>
             <div className='flex flex-col space-y-8'>
