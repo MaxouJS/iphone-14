@@ -77,7 +77,7 @@ const Main: FC = () => {
               </div>
               <span className='lg:text-2xl md:text-xl text-lg font-black duration-200 drop-shadow'>A$ 1,899</span>
               <a
-                href='https://www.linkedin.com/in/maxence-gumiero-47a048181/' target='_blank'
+                href='https://www.apple.com/shop/buy-iphone/iphone-14-pro' target='_blank'
                 className={`text-center bg-gradient-to-r ${theme?.buttonColor[0]} ${theme?.buttonColor[1]} rounded-2xl shadow-lg ${theme?.buttonShadowColor} lg:p-4 p-3 hover:scale-110 duration-200`}
               >
                 <span className='text-neutral-50 lg:text-xl md:text-lg text-md font-black'>Order</span>
