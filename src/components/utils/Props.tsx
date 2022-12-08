@@ -37,6 +37,7 @@ const Props: FC<PropsType> = (props: PropsType) => {
 // Preloads 3d models at the 3d canvas initializion, avoid black screen issue while a new model is loaded
 useGLTF.preload('props/iPhone14Black.glb');
 useGLTF.preload('props/iPhone14Gold.glb');
+useGLTF.preload('props/iPhone14Purple.glb');
 useGLTF.preload('props/iPhone14Silver.glb');
 
 export default Props;

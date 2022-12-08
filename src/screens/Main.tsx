@@ -113,12 +113,6 @@ const Main: FC = () => {
           <span className='absolute bottom-8 left-8 text-xs'>designed by <span className='font-black'>Maxence Gumiero</span></span>
           <div className='absolute bottom-8 right-8'>
             <div className='flex flex-col space-y-8'>
-              <a href='https://dribbble.com/MaxouJS' target='_blank'>
-                <IoLogoDribbble className='lg:text-2xl md:text-xl sm:text-lg hover:scale-125 duration-200' />
-              </a>
-              <a href='https://www.linkedin.com/in/maxence-gumiero-47a048181/' target='_blank'>
-                <IoLogoInstagram className='lg:text-2xl md:text-xl sm:text-lg hover:scale-125 duration-200' />
-              </a>
               <a href='https://www.linkedin.com/in/maxence-gumiero-47a048181/' target='_blank'>
                 <IoLogoLinkedin className='lg:text-2xl md:text-xl sm:text-lg hover:scale-125 duration-200' />
               </a>
