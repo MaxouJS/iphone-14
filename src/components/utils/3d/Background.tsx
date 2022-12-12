@@ -10,16 +10,7 @@ const Background: FC<BackgroundType> = (props: BackgroundType) => {
   const { blobColor }: BackgroundType = props;
   
   return (
-    <>
-      <mesh position={[0, 0, -50]} scale={[10, 10, 10]} frustumCulled={false}>
-        <sphereBufferGeometry args={[2.5, 100, 100]} />
-        <MeshDistortMaterial
-          speed={1}
-          distort={0.5}
-          radius={1}
-          color={blobColor}
-        />
-      </mesh>
+    <>Blo
       <mesh position={[50, 0, 33]} scale={[5, 5, 5]} frustumCulled={false}>
         <sphereBufferGeometry args={[2.5, 100, 100]} />
         <MeshDistortMaterial
